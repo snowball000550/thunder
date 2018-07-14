@@ -1,0 +1,27 @@
+/*vippage.css*/
+/*顶边栏*/
+	body{margin:0;}
+	.body{width: 100%;}
+	.top{ width: 100%;/*height:12vh;*/background: rgba(0,0,0);height: 70px;display: flex;}
+	.topbox{display: flex;flex-direction: row;justify-content: space-between;width: 100%;}
+	.topleft{display: flex;flex-direction: row;align-items: center;}
+	.logo{margin: 0 16px;}
+	.titlelist{display: flex;flex-direction: row;padding: 0 10px;}
+	.titleli{padding: 0 16px;}
+	.titlelia{border-top: 30px solid transparent;border-bottom: 30px solid transparent;}
+	.supervip{color: yellow;}
+	.viplevel{background: rgba(0,0,0,0.7);width: 100%;height: 48px;position: absolute;top:70px;left: 0;display: none;z-index: 2;}
+	.viplevelul{display: flex;flex-direction: row;align-items: center; left: 318px;position: relative;}
+	.viplevelli{padding-right: 40px;}
+
+	.wingimgleft{background: url(../images4/tab-super.png) 0 0 no-repeat; height: 15px;width: 15px;display: inline-block;}
+	.wingimgright{background: url(../images4/tab-super.png) -20px 0 no-repeat; height: 15px;width: 15px;display: inline-block;}
+	.login{width: 264px;display: flex;}
+	.loginback{position: absolute;background: url(../images4/bg_base_spr24.png) 0 -100px;width: 264px;height: 55px; top: 70px;}
+	.qieimg{background: url(../images4/bg_base_spr24.png) -100px 0px;width: 38px;height: 38px;display: inline-block;margin: 10px;}
+	.logincontent{right: 0;display: flex;margin: auto;}
+	.logintxt{display: flex;align-items: center;margin: 0 auto;}
+	.loginbox{display: flex;flex-direction: column;justify-content: center;margin: 12px auto;}
+	.loginbtn{position: absolute;top: 72px;width: 140px;height: 36px;border-radius: 18px;background: #ffc52a;color: #975500;line-height: 36px;text-align: center;margin-top: 6px;z-index: 2;}
+	.loginbtn:hover{background:#f6d272; }
+	.showflex{display: flex;}
